@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <link rel="icon" href="https://getbootstrap.com/docs/4.0/assets/img/favicons/favicon.ico">
+  <title>CBondoc Marketplace</title>
+  <link rel="canonical" href="https://getbootstrap.com/docs/4.0/examples/carousel/">
+  <!-- Bootstrap core CSS -->
+  <link href="./sources/bootstrap.min.css" rel="stylesheet">
+
+
+
+  
+  <!-- Custom styles for this template -->
+  <link href="./sources/carousel.css" rel="stylesheet">
+
+  <style>
+    .navbar-brand {
+      position: relative;
+      background: url(../images/logo.png);
+      width: 150px;
+      left: 15px;
+      background-size: contain;
+    }
+    .category_img {
+      width: 150px;
+      /* You can set the dimensions to whatever you want */
+      height: 150px;
+      object-fit: cover;
+    }
+    .product_img {
+      width: 100px;
+      /* You can set the dimensions to whatever you want */
+      height: 100px;
+      object-fit: cover;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <nav class="navbar fixed-top  flex-wrap2 flex-md-nowrap p-0 navbar-light" style="background-color: #e3f2fd;">
+      <!--        <div class="container-fluid">-->
+      <a class="navbar-brand" href="./index.html"><img class="navbar-brand"
+          src="./sources/images/CB Marketplace-logos_transparent.png"></a>
+      <a class="nav-link " href="./ads.html">Promo<span class="sr-only">(current)</span></a>
+      <a class="nav-link" href="./categories.html">Category</a>
+      <a class="nav-link active" href="./products.html">Products</a>
+
+      <button class="navbar-toggler d-md-none mt-1 mr-2" type="button" data-toggle="collapse"
+        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="input-group py-1 px-2 px-md-0">
+        <input class="form-control form-control-dark" type="text" placeholder="Search here..." aria-label="Search">
+        <div class="input-group-append">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit"><a class="nav-link active" href="./product1.html">Search</a></button>
+        </div>
+      </div>
+      <!--        </div>-->
+    </nav>
+  </header>
+
+  <main role="main">
+
+    <div id=" myCarousel" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class=""></li>
+        <li data-target="#myCarousel" data-slide-to="1" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="2" class=""></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item">
+          <img class="first-slide"
+            src="./sources/images/ads1.png" alt="First slide">
+          <div class="container">
+            <div class="carousel-caption text-left">
+              <h4 class="text-danger">30% Off on Gardening Tools</h4>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item active">
+          <img class="second-slide"
+            src="./sources/images/ads.png">
+          <div class="container">
+            <div class="carousel-caption">
+              <h4 class="text-danger">50% Off on Metal Construction Materials</h4>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img class="third-slide"
+            src="./sources/images/ads3.png" alt="Third slide">
+          <div class="container">
+            <div class="carousel-caption text-right">
+              <h4 class="text-danger">18% Off Electrical Materials</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+    <a class="carousel-control-prev" href="#" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+    </div>
+
+
+    <div class="row">
+
+      <div class="col-sm-6 text-center">
+        <h3>Categories</h3>
+      </div>
+
+      <div class="col-sm-6 text-center">
+        <h3>Products</h3>
+      </div>
+
+    </div>
+
+    <div class="row  text-center">
+      <!-- half -->
+
+      <div class="col-sm-3">
+        <figure class="figure">
+          <img src="./sources/images/electrical tools.jpg" class="figure-img img-fluid rounded img-t style category_img"
+            alt="Electrical Tools">
+          <h6>Electrical Tools</h6>
+        </figure>
+      </div>
+
+      <div class="col-sm-3">
+        <figure class="figure">
+          <img src="./sources/images/construction_mat.jpg" class="figure-img img-fluid rounded img-t style category_img"
+            alt="Construction Materials">
+          <h6>Construction Materials</h6>
+        </figure>
+      </div>
+
+
+
+      <!-- half -->
+   
+      <div class="col-sm-2">
+        <figure class="figure">
+          <img src="./sources/images/tower_hydroponic.jpg" class="figure-img img-fluid rounded img-t style product_img"
+            alt="Construction Materials">
+          <h6>Construction Materials</h6>
+        </figure>
+      </div>
+      <div class="col-sm-2">
+        <figure class="figure">
+          <img src="./sources/images/tapo_smart_plug.png" class="figure-img img-fluid rounded img-t style product_img"
+            alt="Construction Materials">
+          <h6>Construction Materials</h6>
+        </figure>
+      </div>
+      <div class="col-sm-2">
+        <figure class="figure">
+          <img src="./sources/images/robot_vacuum.png" class="figure-img img-fluid rounded img-t style product_img"
+            alt="Construction Materials">
+          <h6>Construction Materials</h6>
+        </figure>
+      </div>
+      
+    </div>
+
+    <div class="row  text-center">
+      <!-- half -->
+
+      <div class="col-sm-3">
+        <figure class="figure">
+          <img src="./sources/images/home_automation.png" class="figure-img img-fluid rounded img-t style category_img"
+            alt="Home Automation">
+          <h6>Home Automation</h6>
+        </figure>
+      </div>
+
+      <div class="col-sm-3">
+        <figure class="figure">
+          <img src="./sources/images/gardening.jpg" class="figure-img img-fluid rounded img-t style category_img"
+            alt="Gardening">
+          <h6>Gardening</h6>
+        </figure>
+      </div>
+
+      <!-- half -->
+      
+      <div class="col-sm-2">
+        <figure class="figure">
+          <img src="./sources/images/dutch_bucket_set.jpg" class="figure-img img-fluid rounded img-t style product_img"
+            alt="Construction Materials">
+          <h6>Construction Materials</h6>
+        </figure>
+      </div>
+      <div class="col-sm-2">
+        <figure class="figure">
+          <img src="./sources/images//DIY_Greenhouse.jpeg" class="figure-img img-fluid rounded img-t style product_img"
+            alt="Construction Materials">
+          <h6>Construction Materials</h6>
+        </figure>
+      </div>
+      <div class="col-sm-2">
+        <figure class="figure">
+          <img src="./sources/images/corkboard.jpg" class="figure-img img-fluid rounded img-t style product_img"
+            alt="Construction Materials">
+          <h6>Construction Materials</h6>
+        </figure>
+      </div>
+    </div>
+
+    </div><!-- /.container -->
+
+
+
+
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <footer class="container">
+      <p class="text-center">Copyright © 2022 Cary Bondoc</p>
+    </footer>
+  </main>
+
+  <!-- Bootstrap core JavaScript
+    ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script src="./sources/jquery-3.2.1.slim.min.js.download"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+  <script src="./sources/popper.min.js.download"></script>
+  <script src="./sources/bootstrap.min.js.download"></script>
+  <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
+  <script src="./sources/holder.min.js.download"></script>
+
+
+  <svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500" preserveAspectRatio="none"
+    style="display: none; visibility: hidden; position: absolute; top: -100%; left: -100%;">
+    <defs>
+      <style type="text/css"></style>
+    </defs><text x="0" y="25"
+      style="font-weight:bold;font-size:25pt;font-family:Arial, Helvetica, Open Sans, sans-serif">500x500</text>
+  </svg>
+</body>
+
+</html>
